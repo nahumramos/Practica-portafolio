@@ -1,0 +1,161 @@
+@font-face {
+	font-family: 'icomoon';
+	src:url('../fonts/icomoon.eot?ivxbn9');
+	src:url('../fonts/icomoon.eot?#iefixivxbn9') format('embedded-opentype'),
+		url('../fonts/icomoon.woff?ivxbn9') format('woff'),
+		url('../fonts/icomoon.ttf?ivxbn9') format('truetype'),
+		url('../fonts/icomoon.svg?ivxbn9#icomoon') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+	font-family: 'icomoon';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.icon-facebook:before {
+	content: "\e600";
+	color: #2c3e50;
+	font-size: 2em;
+}
+.icon-twitter:before {
+	content: "\e601";
+	color: #2c3e50;
+	font-size: 2em;
+
+
+}
+.icon-github:before {
+	content: "\e602";
+	color: #2c3e50;
+	font-size: 2em;
+}
+#header 
+{
+	background-image: url("../imag/bg_header2.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	text-align: center;
+}
+
+.header-nav
+{
+	background: #2c3e50;
+}
+.header-mainmenu
+{
+	text-align: center;
+	padding: 1em;
+	margin:0;
+}
+.header-list
+{
+	display:inline-block;
+}
+.header-link
+{
+	color:white;
+	text-decoration: none;
+	margin-right: 1em;
+}
+.header-imagcontainer
+{
+	margin: 0;
+	padding: 0;
+}
+.header-imag
+{
+	margin-top: 1em;
+	border-radius: 50%;
+	border: 3px solid white;
+}
+.header-name
+{
+	color:white;
+	font-weight: bold;
+	font-size: 1.5em;
+	margin:0.2em 0;
+}
+.header-social
+{
+	color:white;		
+}
+.u-container
+{
+	text-align: center;
+}
+.profile-title
+{
+	border-bottom: 1px dashed black;
+	color:#d35400;
+
+}
+.profile-comment
+{
+	font-style: italic;
+	font-weight: bold;
+	font-size: 1.2em;
+}
+.profile-face,
+.profile-twitter,
+.profile-gith
+{
+	text-decoration: none;
+	margin-right: 1em;
+}
+#work
+{
+	text-align: center;
+
+}
+.work-title
+{
+	color:#d35400;
+	text-align: center;
+	border-bottom: 1px dashed black;
+}
+.work-item
+{
+	background:#f39c12;
+	text-align: center;
+	display: inline-block;
+	border-radius:0.8em;
+	margin: 1em 0.5em 0.5em 1em;
+}
+.work-imagcontainer
+{
+	margin:1em;
+	padding:0;
+}
+.work-imag
+{
+	border-radius: 0.5em;
+	margin: 0.5em;
+}
+.work-comment
+{
+	color:white;
+
+}
+#footer
+{
+	background:#2c3e50;
+	height: 250px;
+}
+
+
+
+
+
+
